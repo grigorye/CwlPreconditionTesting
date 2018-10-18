@@ -22,4 +22,6 @@ Pod::Spec.new do |s|
     "Sources/CwlMachBadInstructionHandler/CwlMachBadInstructionHandler.m",
     "Sources/CwlMachBadInstructionHandler/include/CwlMachBadInstructionHandler.h"
   s.ios.source_files = "Sources/CwlMachBadInstructionHandler/mach_excServer.{c,h}"
+  s.swift_version = "4.2"
+  s.dependency 'CwlCatchException', '1.1.0'
 end
